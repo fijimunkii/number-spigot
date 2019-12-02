@@ -1,0 +1,32 @@
+{
+  "name": "number-spigot",
+  "version": "1.0.0",
+  "description": "Streaming number generator for e, pi, and primes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/tap test --jobs=10 --coverage-report=html --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fijimunkii/number-spigot.git"
+  },
+  "keywords": [
+    "spigot",
+    "transcendental",
+    "number",
+    "generator",
+    "euler",
+    "pi",
+    "prime"
+  ],
+  "author": "Harrison Powers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fijimunkii/number-spigot/issues"
+  },
+  "homepage": "https://github.com/fijimunkii/number-spigot#readme",
+  "devDependencies": {
+    "progress": "2.0.3",
+    "tap": "14.10.2"
+  }
+}
